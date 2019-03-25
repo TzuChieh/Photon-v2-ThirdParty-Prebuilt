@@ -6,6 +6,7 @@ This repository holds third party libraries used by [Photon-v2 renderer](https:/
 * [stb](https://github.com/nothings/stb) (commit e6afb9cbae4064da8c3e69af3ff5c4629579c1d2)
 * [StackWalker](https://github.com/JochenKalmbach/StackWalker) (commit 42e7a6e056a9e7aca911a7e9e54e2e4f90bc2652)
 * [libsimdpp](https://github.com/p12tic/libsimdpp) (tag v2.1)
+* [tinyexr](https://github.com/syoyo/tinyexr) (tag v0.95)
 
 ## License
 
