@@ -18,7 +18,15 @@ This repository holds pre-compiled third party libraries used by [Photon-v2 rend
 
 ## Build
 
-All libraries should be build (except for header-only libraries) for static linking, and settings compatible with the renderer.
+All libraries should be build (except for header-only libraries) for static linking, and settings compatible with the renderer. Currently, libraries are pre-compiled under following environments:
+
+* Windows
+  * Visual Studio 2017
+* Linux
+  * Ubuntu 16.04 with g++ 7.3.0
+* macOS
+  * High Sierra 10.13 with Apple LLVM version 10.0.0 (clang-1000.10.44.4), target: x86_64-apple-darwin17.0.0, thread model: posix
+  * when it comes to apple's toolchain versioning, [this](https://gist.github.com/yamaya/2924292) is a good reference
 
 ## License
 
