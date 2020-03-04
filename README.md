@@ -1,4 +1,4 @@
-# Photon-v2-ThirdParty
+# Photon-v2-ThirdParty-Prebuilt
 
 This repository holds third party libraries (pre-compiled if not header-only) used by [Photon-v2 renderer](https://github.com/TzuChieh/Photon-v2). Here is the list of libraries as well as the used versions and settings:
 
