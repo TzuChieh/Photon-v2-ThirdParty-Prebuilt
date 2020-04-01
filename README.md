@@ -2,7 +2,7 @@
 
 This repository holds third party libraries (pre-compiled if not header-only) used by [Photon-v2 renderer](https://github.com/TzuChieh/Photon-v2). Here is the list of libraries as well as the used versions and settings:
 
-Header-only libraries:
+Header-only:
 
 * [stb](https://github.com/nothings/stb)
   * git commit hash `e6afb9cbae4064da8c3e69af3ff5c4629579c1d2`
@@ -10,7 +10,7 @@ Header-only libraries:
   * git tag `asio-1-14-0`
   * define `ASIO_STANDALONE` so that Boost is not required
 
-Pre-compiled libraries:
+Pre-compiled:
 
 * [googletest](https://github.com/google/googletest)
   * git commit hash `a868e618c0607259c63f37d948b72586a13922ff`
@@ -21,6 +21,8 @@ Pre-compiled libraries:
 * [OpenEXR](https://github.com/openexr/openexr)
   * git tag `v2.3.0`
   * python binding is not needed (define `OPENEXR_BUILD_PYTHON_LIBS=OFF` in CMake)
+* [pkg-config-lite](https://sourceforge.net/projects/pkgconfiglite/)
+  * version 0.28-1 (win32)
 
 ## Build
 
