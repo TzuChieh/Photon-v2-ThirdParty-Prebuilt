@@ -16,11 +16,9 @@ Pre-compiled libraries:
   * git commit hash `a868e618c0607259c63f37d948b72586a13922ff`
 * [StackWalker](https://github.com/JochenKalmbach/StackWalker)
   * git commit hash `42e7a6e056a9e7aca911a7e9e54e2e4f90bc2652`
-* [libsimdpp](https://github.com/p12tic/libsimdpp)
-  * git tag `v2.1`
 * [zlib](https://github.com/madler/zlib)
   * git tag `v1.2.11`
-* [openexr](https://github.com/openexr/openexr)
+* [OpenEXR](https://github.com/openexr/openexr)
   * git tag `v2.3.0`
   * python binding is not needed (define `OPENEXR_BUILD_PYTHON_LIBS=OFF` in CMake)
 
